@@ -1,0 +1,42 @@
+{
+  "name": "ElectronRepo",
+  "productName": "ElectronRepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel",
+    "webpack": "webpack",
+    "rebuild": "electron-rebuild -f -w sqlite3",
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "bootstrap": "3.3.7",
+    "builder": "^3.2.1",
+    "css-loader": "0.26.1",
+    "easyimage": "2.1.0",
+    "electron": "^1.4.15",
+    "electron-packager": "^8.5.1",
+    "electron-rebuild": "^1.5.7",
+    "electron-winstaller": "^2.5.2",
+    "jquery": "3.1.1",
+    "react": "15.4.2",
+    "react-dom": "15.4.2",
+    "react-dropzone-component": "1.4.1",
+    "style-loader": "0.13.1",
+    "url-loader": "0.5.7",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "antd": "^2.7.1",
+    "knex": "^0.12.6",
+    "sqlite3": "^3.1.8"
+  }
+}
